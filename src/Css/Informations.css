@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.business-planning-tools {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  padding-top: 7rem;
+}
+
+h1 {
+  margin-top: -0.5rem;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.tool-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 150px;
+  gap: 12rem;
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.tool-section.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.tool-section.reverse {
+  flex-direction: row-reverse;
+  transform: translateX(50px);
+}
+
+.tool-section.reverse.visible {
+  transform: translateX(0);
+}
+
+.tool-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.tool-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* transform: scale(1.1);
+  transition: 0.5s; */
+}
+.tool-image img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+
+.tool-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.tool-content h2 {
+  font-size: 29px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.tool-content p {
+  font-size: 16px;
+  color: #040504;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .tool-section,
+  .tool-section.reverse {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .tool-image,
+  .tool-content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .tool-image img {
+    max-width: 100%;
+  }
+
+  .tool-content h2 {
+    font-size: 20px;
+  }
+
+  .tool-content p {
+    font-size: 14px;
+  }
+}

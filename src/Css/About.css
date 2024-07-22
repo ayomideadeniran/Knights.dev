@@ -1,0 +1,86 @@
+/* AboutUs.css
+.about-us {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .faq-section {
+    flex: 1;
+    background-color: #008000;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  
+  .faq-item {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .toggle-icon {
+    color: #008000;
+    font-size: 24px;
+  }
+  
+  .info-section {
+    flex: 1;
+    padding: 0 40px;
+    background-color: #f8f9ff;
+  }
+  
+  .section-label {
+    color: #008000;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .discover-button {
+    background-color: white;
+    color: #008000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .discover-button:hover {
+    background-color: #008000;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .about-us {
+      flex-direction: column;
+    }
+  
+    .faq-section, .info-section {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .info-section {
+      margin-top: 30px;
+    }
+  } */
